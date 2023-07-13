@@ -1,0 +1,521 @@
+.portifolio{
+    border-top: 1px solid #15ff00;
+    width: 90%;
+    margin-left: 7%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    z-index: 90;
+    height: 1000px;
+}
+
+@media only screen and (max-width: 450px) and (min-width: 320px){
+
+    .descri_bloco a {
+        margin-top: 10%;
+    }
+    .portifolio{
+        border-top: 1px solid #15ff00;
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        z-index: 90;
+        height: 1000px;
+    }
+
+    .tecno{
+        width: 50%;
+        margin-left: 25%;
+        justify-content: space-evenly;
+        margin-bottom: 2%;
+    }
+
+    .tecno img{
+        
+    }
+
+    .portio{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: -1000px;
+        margin-bottom: 10%;
+    }
+
+    .trabalhos{
+        display: flex;
+        flex-wrap: wrap;
+        z-index: 99;
+        margin-top: 178px;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .descri{
+        display: flex;
+        flex-wrap: wrap;
+        z-index: 9;
+        margin-top: -250px;
+        width: 90%;
+        margin-left: 3%;
+       
+    }
+
+    .bloco{
+        width: 94%;
+        margin-left: 3%;
+        margin-right: 3%;
+        height: 100%;
+        border-radius: 4px;
+        box-shadow: 0 20px 40px rgba(11, 204, 11, 0.434);
+        background-color: black;
+        margin-left: 6%;
+        margin-top: 5%;
+        z-index: 99;
+        opacity: 1;
+        transition: 700ms;
+    }
+
+    .descri_bloco{
+        width: 94%;
+        margin-left: 3%;
+        margin-right: 3%;
+        height: 100%;
+        border-radius: 4px;
+        box-shadow: 0 20px 40px rgba(11, 204, 11, 0.434);
+        background-color: black;
+        margin-left: 6%;
+        margin-top: 5%;
+        z-index: 9;
+        opacity: 1;
+        transition: 700ms;
+    }
+
+    .portifolio h1{
+        margin-top: 5%;
+        background-image: linear-gradient(to right, #15ff00, #c800ff);
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-left: 8%;
+       
+    }
+
+    .bloco img{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 40%;
+    }
+
+}
+
+@media only screen and (max-width: 900px) and (min-width: 750px){
+    .portio{
+        width: 90%;
+        margin-left: 8%;
+        margin-top: -856px;
+        margin-bottom: 10%;
+    }
+
+    .portifolio{
+        border-top: 1px solid #15ff00;
+        width: 90%;
+        margin-left: 7%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        z-index: 90;
+        height: 1000px;
+    }
+    
+    .portifolio h1{
+        margin-top: 5%;
+        background-image: linear-gradient(to right, #15ff00, #c800ff);
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-left: 8%;
+    }
+    
+    
+    
+    .bloco{
+        width: 300px;
+        height: 300px;
+        border-radius: 4px;
+        box-shadow: 0 20px 40px rgba(11, 204, 11, 0.434);
+        background-color: black;
+        margin-left: 6%;
+        margin-top: 5%;
+        z-index: 99;
+        opacity: 1;
+        transition: 700ms;
+    }
+    
+    .bloco:hover{
+        opacity: 0;
+        transition: 700ms;
+    }
+    
+    .bloco img{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 35%;
+    }
+    
+    .trabalhos{
+        display: flex;
+        flex-wrap: wrap;
+        z-index: 99;
+        margin-top: 178px;
+    }
+    
+    .descri{
+        display: flex;
+        flex-wrap: wrap;
+        z-index: 98;
+        margin-top: 120px;
+    }
+    
+    .descri_bloco{
+        width: 300px;
+        height: 300px;
+        border-radius: 4px;
+        box-shadow: 0 20px 40px rgba(11, 204, 11, 0.434);
+        background-color: black;
+        margin-left: 6%;
+        margin-top: 5%;
+        z-index: 98;
+        opacity: 1;
+        transition: 700ms;
+    }
+    
+    /* .descri_blocoA{
+        width: 22.5%;
+        height: 300px;
+        border-radius: 4px;
+        box-shadow: 0 20px 40px rgba(11, 204, 11, 0.434);
+        background-color: black;
+        margin-left: 40.3%;
+        margin-top: -59%;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: absolute;
+        z-index: 1;
+    }
+    
+    .descri_blocoB{
+        width: 22.5%;
+        height: 300px;
+        border-radius: 4px;
+        box-shadow: 0 20px 40px rgba(11, 204, 11, 0.434);
+        background-color: black;
+        margin-left: 68.3%;
+        margin-top: -59%;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: absolute;
+        z-index: 1;
+    }
+    
+    .descri_blocoC{
+        width: 22.5%;
+        height: 300px;
+        border-radius: 4px;
+        box-shadow: 0 20px 40px rgba(11, 204, 11, 0.434);
+        background-color: black;
+        margin-left: 12.4%;
+        margin-top: -32.2%;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: absolute;
+        z-index: 1;
+    }
+    
+    .descri_blocoD{
+        width: 22.5%;
+        height: 300px;
+        border-radius: 4px;
+        box-shadow: 0 20px 40px rgba(11, 204, 11, 0.434);
+        background-color: black;
+        margin-left: 40.3%;
+        margin-top: -32.2%;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: absolute;
+        z-index: 1;
+    } */
+    
+    
+    .descri_bloco h2{
+           width: 80%;
+           margin-left: 10%;
+           text-align: center;
+           font-size: 120%;
+           margin-top: 15%;
+           color: white;
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    }
+    
+    .descri_bloco p{
+        width: 80%;
+        margin-left: 10%;
+        text-align: center;
+        font-size: 80%;
+        margin-top: 5%;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 90%;
+    }
+    
+    .descri_bloco img{
+        width: 10%;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+    
+    .tecno{
+        margin-left: 19%;
+    }
+    
+    .descri_bloco a{
+        text-decoration: none;
+        list-style: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 80%;
+        text-align: center;
+        width: 100%;
+        /* background-image: linear-gradient(to right, #15ff00, #c800ff);
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text;  */
+        margin-left: 38%;
+        color: #15ff00;
+        margin-top: 10%;
+        z-index: 100;
+    }
+    
+    #sound img{
+        margin-top: 5%;
+    }
+    
+    #for img{
+        margin-top: 0%;
+        width: 100%;
+       margin-left: 0;
+    }
+    
+    #ux img{
+        margin-top: 0%;
+        width: 100%;
+       margin-left: 0;
+    }
+    
+}
+
+.portio{
+    width: 90%;
+    margin-left: 7%;
+    margin-top: -856px;
+    margin-bottom: 10%;
+}
+
+.portifolio h1{
+    margin-top: 5%;
+    background-image: linear-gradient(to right, #15ff00, #c800ff);
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 8%;
+}
+
+
+
+.bloco{
+    width: 300px;
+    height: 300px;
+    border-radius: 4px;
+    box-shadow: 0 20px 40px rgba(11, 204, 11, 0.434);
+    background-color: black;
+    margin-left: 6%;
+    margin-top: 5%;
+    z-index: 99;
+    /* opacity: 1; */
+    display: block;
+    transition: 700ms;
+}
+
+.bloco:hover{
+    opacity: 0;
+    transition: 700ms;
+    z-index: 1;
+}
+
+.descri_bloco:hover{
+    z-index: 999;
+    opacity: 1;
+    transition: 500ms;
+}
+
+.bloco img{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 35%;
+}
+
+.trabalhos{
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 99;
+    margin-top: 178px;
+}
+
+.descri{
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 98;
+    margin-top: 131px;
+}
+
+.descri_bloco{
+    width: 300px;
+    height: 300px;
+    border-radius: 4px;
+    box-shadow: 0 20px 40px rgba(11, 204, 11, 0.434);
+    background-color: black;
+    margin-left: 6%;
+    margin-top: 5%;
+    z-index: 98;
+    opacity: 1;
+    transition: 700ms;
+}
+
+/* .descri_blocoA{
+    width: 22.5%;
+    height: 300px;
+    border-radius: 4px;
+    box-shadow: 0 20px 40px rgba(11, 204, 11, 0.434);
+    background-color: black;
+    margin-left: 40.3%;
+    margin-top: -59%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    z-index: 1;
+}
+
+.descri_blocoB{
+    width: 22.5%;
+    height: 300px;
+    border-radius: 4px;
+    box-shadow: 0 20px 40px rgba(11, 204, 11, 0.434);
+    background-color: black;
+    margin-left: 68.3%;
+    margin-top: -59%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    z-index: 1;
+}
+
+.descri_blocoC{
+    width: 22.5%;
+    height: 300px;
+    border-radius: 4px;
+    box-shadow: 0 20px 40px rgba(11, 204, 11, 0.434);
+    background-color: black;
+    margin-left: 12.4%;
+    margin-top: -32.2%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    z-index: 1;
+}
+
+.descri_blocoD{
+    width: 22.5%;
+    height: 300px;
+    border-radius: 4px;
+    box-shadow: 0 20px 40px rgba(11, 204, 11, 0.434);
+    background-color: black;
+    margin-left: 40.3%;
+    margin-top: -32.2%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    z-index: 1;
+} */
+
+
+.descri_bloco h2{
+       width: 80%;
+       margin-left: 10%;
+       text-align: center;
+       font-size: 120%;
+       margin-top: 15%;
+       color: white;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.descri_bloco p{
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    font-size: 80%;
+    margin-top: 5%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 90%;
+}
+
+.descri_bloco img{
+    width: 10%;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.tecno{
+    margin-left: 19%;
+}
+
+.descri_bloco a{
+    text-decoration: none;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80%;
+    text-align: center;
+    width: 100%;
+    /* background-image: linear-gradient(to right, #15ff00, #c800ff);
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text;  */
+    margin-left: 38%;
+    color: #15ff00;
+    margin-top: 10%;
+    z-index: 100;
+}
+
+#sound img{
+    margin-top: 5%;
+}
+
+#for img{
+    margin-top: 0%;
+    width: 100%;
+   margin-left: 0;
+}
+
+#ux img{
+    margin-top: 0%;
+    width: 100%;
+   margin-left: 0;
+}
+
+#good img{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 20%;
+}
+
+
+.descri_bloco a {
+    cursor: pointer;
+}

@@ -1,0 +1,105 @@
+.skils{
+    border-top: 1px solid #15ff00;
+    width: 90%;
+    margin-left: 7%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.skils h1{
+    margin-top: 5%;
+    background-image: linear-gradient(to right, #15ff00, #c800ff);
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 8%;
+}
+
+.skil{
+    width: 100%;
+}
+
+
+.skil h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin-top: 4%;
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+.tecno{
+   width: 80%;
+   margin-left: 10%;
+   flex-wrap: wrap;
+    text-align: center;
+}
+
+.tecno img{
+   width: 50px;
+   margin-left: 5%;
+}
+
+
+footer{
+    border-top: 1px solid #15ff00;
+    width: 90%;
+    margin-left: 7%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+footer a{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 120%;
+    list-style: none;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    margin-left: 42%;
+}
+
+@media only screen and (max-width: 450px) and (min-width: 320px){
+    .skil{
+        width: 90%;
+        text-align: center;
+        margin-left: 5%;
+    }
+
+    .skils{
+        border-top: 1px solid #15ff00;
+        width: 90%;
+        margin-left: 0;
+        margin-left: 5%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        text-align: center;
+    }
+
+    .tecno img{
+        width: 40px;
+        margin-left: 6%;
+     }
+
+    .tecno{
+        margin-top: 4%;
+        width: 80%;
+        margin-right: 8%;
+        margin-left: 8%;
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        text-align: center;
+     }
+
+     .skils h1{
+        margin-top: 5%;
+        background-image: linear-gradient(to right, #15ff00, #c800ff);
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        left: 0;
+}
+}

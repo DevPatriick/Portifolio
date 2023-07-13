@@ -1,0 +1,82 @@
+.formacao{
+    width: 90%;
+    margin-left: 7%;
+    border-top: 1px solid #15ff00;
+    color: white;
+}
+
+.formacao h1{
+    width: 30%;
+    /* border: 1px solid #15ff00;
+    border-radius: 10px; */
+    text-align: center;
+    background-image: linear-gradient(to right, #15ff00, #c800ff);
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+    margin-top: 5%;
+    margin-left: 8%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.formados{
+    width: 40%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 5%;
+    border: 1px solid #15ff00;
+    padding-left: 3%;
+    transition: 600ms;
+    padding-bottom: 3%;
+}
+
+.formados:hover{
+    border: 1px solid #c800ff;
+    transition: 600ms;
+}
+
+.formados h3{
+    text-align: center;
+    margin-top: 4%;
+}
+
+.formas{
+    display: flex;
+    margin-left: 7%;
+    width: 90%;
+    justify-content: space-around;
+}
+
+
+@media only screen and (max-width: 450px) and (min-width:320px)
+{
+       .formas{
+        flex-wrap: wrap;
+        width: 90%;
+        margin-left: 4%;        
+       }
+
+       .formados{
+        width: 90%;
+        margin-left: 5%;
+       }
+
+
+       .formacao{
+    width: 90%;
+    border-top: 1px solid #15ff00;
+    color: white;
+    margin-left: 5%;
+}
+
+.formacao h1{
+    /* border: 1px solid #15ff00;
+    border-radius: 10px; */
+    text-align: center;
+    background-image: linear-gradient(to right, #15ff00, #c800ff);
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+    margin-top: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 60%;
+    font-size: 30px;
+}
+}

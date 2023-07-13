@@ -1,0 +1,95 @@
+.sobremim{
+    border-top: 1px solid #15ff00;
+    width: 90%;
+    margin-left: 7%;
+    margin-top: 18%;
+    margin-bottom: 5%;
+   
+}
+
+.sobremim h1{
+    width: 30%;
+    /* border: 1px solid #15ff00;
+    border-radius: 10px; */
+    text-align: center;
+    background-image: linear-gradient(to right, #15ff00, #c800ff);
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+    margin-top: 5%;
+    margin-left: 8%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sobremim p{
+   color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 90%;
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 6%;
+}
+
+.sobree{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.pictures{
+    margin-top: 4%;
+    width: 45%;
+}
+
+.sobre{
+    width: 40%;
+}
+
+.pictures img{
+    margin-left: 5%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 450px) and (min-width: 320px){
+    .sobremim{
+        border-top: 1px solid #15ff00;
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 18%;
+        margin-bottom: 5%;
+       
+    }
+
+    .sobremim h1{
+        width: 80%;
+        /* border: 1px solid #15ff00;
+        border-radius: 10px; */
+        text-align: center;
+        background-image: linear-gradient(to right, #15ff00, #c800ff);
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+        margin-top: 5%;
+        margin-left: 2%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .pictures{
+        margin-top: 4%;
+        width: 100%;
+        display: flex;
+        overflow-x: scroll;
+    }
+
+    .parte1{
+        width: 100%;
+    }
+
+    .sobre{
+        width: 80%;
+    }
+    .sobree{
+        display: grid;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
